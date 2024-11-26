@@ -19,30 +19,36 @@ export default function Home() {
             .
           </p>
         </div>
-        
+
         <div className="flex flex-col items-center space-y-4">
-          <Link 
-            href="/svg-to-png" 
+          <Link
+            href="/svg-to-png"
             className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-[var(--muted)] hover:bg-black/5"
           >
             <h2 className="mb-1 text-xl font-medium">SVG to PNG →</h2>
-            <p className="text-sm text-[var(--muted)]">Convert SVG files to PNG format</p>
+            <p className="text-sm text-[var(--muted)]">
+              Convert SVG files to PNG format
+            </p>
           </Link>
-          
-          <Link 
-            href="/square-image" 
+
+          <Link
+            href="/square-image"
             className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-[var(--muted)] hover:bg-black/5"
           >
             <h2 className="mb-1 text-xl font-medium">Square Image →</h2>
-            <p className="text-sm text-[var(--muted)]">Generate perfect square images</p>
+            <p className="text-sm text-[var(--muted)]">
+              Generate perfect square images
+            </p>
           </Link>
-          
-          <Link 
-            href="/rounded-border" 
+
+          <Link
+            href="/rounded-border"
             className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-[var(--muted)] hover:bg-black/5"
           >
             <h2 className="mb-1 text-xl font-medium">Corner Rounder →</h2>
-            <p className="text-sm text-[var(--muted)]">Add rounded corners to images</p>
+            <p className="text-sm text-[var(--muted)]">
+              Add rounded corners to images
+            </p>
           </Link>
         </div>
       </main>
