@@ -33,7 +33,7 @@ export default function ToolsLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className="flex min-h-screen flex-col justify-between p-6 sm:p-12 font-[family-name:var(--font-geist-sans)]">
+    <div className="flex min-h-screen flex-col justify-between p-6 font-[family-name:var(--font-geist-sans)] sm:p-12">
       <BackButton />
       <main className="flex flex-grow flex-col items-center justify-center">
         {children}
